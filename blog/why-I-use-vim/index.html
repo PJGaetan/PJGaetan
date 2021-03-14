@@ -1,0 +1,134 @@
+<!doctype html>
+<html data-n-head-ssr>
+  <head>
+    <title>What is it about vim</title><meta data-n-head="ssr" charset="utf-8"><meta data-n-head="ssr" name="viewport" content="width=device-width,initial-scale=1"><meta data-n-head="ssr" data-hid="description" name="description" content="The reason you should consider using vim if you value the quality of your work experience and some of the tools I've come to use while I'm still learning to use it appropriately."><meta data-n-head="ssr" data-hid="og:title" property="og:title" content="What is it about vim"><meta data-n-head="ssr" data-hid="og:description" property="og:description" content="The reason you should consider using vim if you value the quality of your work experience and some of the tools I've come to use while I'm still learning to use it appropriately."><meta data-n-head="ssr" data-hid="twitter:title" name="twitter:title" content="What is it about vim"><meta data-n-head="ssr" data-hid="twitter:description" name="twitter:description" content="The reason you should consider using vim if you value the quality of your work experience and some of the tools I've come to use while I'm still learning to use it appropriately."><base href="/PJGaetan/"><link data-n-head="ssr" rel="icon" type="image/x-icon" href="/favicon.ico"><link rel="preload" href="/PJGaetan/_nuxt/5ffd06d.js" as="script"><link rel="preload" href="/PJGaetan/_nuxt/b36bec3.js" as="script"><link rel="preload" href="/PJGaetan/_nuxt/da5ed71.js" as="script"><link rel="preload" href="/PJGaetan/_nuxt/2e65c94.js" as="script"><link rel="preload" href="/PJGaetan/_nuxt/b92c95a.js" as="script"><style data-vue-ssr-id="470cbfe5:0 517a8dd7:0 fa7ff0ca:0">:root{font-family:"Open Sans";--text-primary:#989898;--text-secondary:#fff;--text-tertiary:#cfcfc5;--bg-primary:#fff;--bg-secondary:#a67b5c;--bg-tertiary:#fff;--typocolor:#710117;--transition-speed:600ms}@font-face{font-family:"Open Sans";src:url(/PJGaetan/_nuxt/fonts/OpenSans-Light.2d0bdc8.ttf) format("truetype")}@font-face{font-family:Amaranth;src:url(/PJGaetan/_nuxt/fonts/Amaranth-Regular.895575a.ttf) format("truetype")}@font-face{font-family:"Merriweather Sans";src:url(/PJGaetan/_nuxt/fonts/MerriweatherSans-Regular.814a049.ttf) format("truetype")}@font-face{font-family:Sintony;src:url(/PJGaetan/_nuxt/fonts/Sintony-Regular.a95f64a.ttf) format("truetype")}#__layout,#__nuxt,body,form,html{margin:0;padding:0;height:100%}#root{margin:.25rem 6rem 0;padding:0;background-color:#fff;background-color:var(--bg-primary);height:100%}@media (max-width:60em){#root{margin:.125rem 2rem 0}}@media (max-width:30em){#root{margin:.125rem 1rem 0}}ul{list-style:none}body::-webkit-scrollbar{width:.125rem}body::-webkit-scrollbar-thumb,body::-webkit-scrollbar-track{background:#710117;background:var(--typocolor)}.header{display:flex;justify-content:space-between;align-items:center;text-align:left;font-family:"Merriweather Sans";font-weight:38}.title{margin:0;font-size:1.5rem;font-weight:500}.bar-icone-item{width:38px;height:auto}@media (max-width:60em){.title{font-size:1rem}.bar-icone-item{width:2em;height:auto}}@media (max-width:30em){.title{font-size:.75rem}.bar-icone-item{width:1em;height:auto}}#content{display:flex;flex-direction:column;margin-left:20%;margin-right:20%}.content-toc-title{font-family:Amaranth;font-size:1.5rem;margin-bottom:.5rem}.toc .toc2,.toc .toc3{font-family:Amaranth;color:#888;font-weight:100}.toc .toc3{padding-left:1rem}.content-title{font-family:Amaranth}.nuxt-content-container{font-family:Sintony}.nuxt-content-container li{list-style:inside}.sub-title{font-family:Amaranth;font-size:4.5rem;font-weight:400}a:link,a:visited{color:inherit;text-decoration:none}a:active,a:hover{color:inherit;text-decoration:underline}.articles-list{display:flex;flex-direction:column;justify-content:center;align-items:left}.articles-list-item{padding:0 1rem;width:60rem}.article-title{color:#407abe;font-family:Amaranth;font-size:2rem;margin-bottom:0}.article-read-time{font-family:Amaranth;color:#686868;font-size:.85rem}.article-description{font-family:Sintony;font-size:1rem}@media (max-width:60em){.articles-list{align-items:center}.articles-list-item{width:30em}}@media (max-width:30em){.articles-list-item{width:15em}}code[class*=language-],pre[class*=language-]{color:#000;background:0 0;text-shadow:0 1px #fff;font-family:Consolas,Monaco,"Andale Mono","Ubuntu Mono",monospace;font-size:1em;text-align:left;white-space:pre;word-spacing:normal;word-break:normal;word-wrap:normal;line-height:1.5;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-hyphens:none;-ms-hyphens:none;hyphens:none}code[class*=language-] ::-moz-selection,code[class*=language-]::-moz-selection,pre[class*=language-] ::-moz-selection,pre[class*=language-]::-moz-selection{text-shadow:none;background:#b3d4fc}code[class*=language-] ::selection,code[class*=language-]::selection,pre[class*=language-] ::selection,pre[class*=language-]::selection{text-shadow:none;background:#b3d4fc}@media print{code[class*=language-],pre[class*=language-]{text-shadow:none}}pre[class*=language-]{padding:1em;margin:.5em 0;overflow:auto}:not(pre)>code[class*=language-],pre[class*=language-]{background:#f5f2f0}:not(pre)>code[class*=language-]{padding:.1em;border-radius:.3em;white-space:normal}.token.cdata,.token.comment,.token.doctype,.token.prolog{color:#708090}.token.punctuation{color:#999}.token.namespace{opacity:.7}.token.boolean,.token.constant,.token.deleted,.token.number,.token.property,.token.symbol,.token.tag{color:#905}.token.attr-name,.token.builtin,.token.char,.token.inserted,.token.selector,.token.string{color:#690}.language-css .token.string,.style .token.string,.token.entity,.token.operator,.token.url{color:#9a6e3a;background:hsla(0,0%,100%,.5)}.token.atrule,.token.attr-value,.token.keyword{color:#07a}.token.class-name,.token.function{color:#dd4a68}.token.important,.token.regex,.token.variable{color:#e90}.token.bold,.token.important{font-weight:700}.token.italic{font-style:italic}.token.entity{cursor:help}.nuxt-progress{position:fixed;top:0;left:0;right:0;height:2px;width:0;opacity:1;transition:width .1s,opacity .4s;background-color:#000;z-index:999999}.nuxt-progress.nuxt-progress-notransition{transition:none}.nuxt-progress-failed{background-color:red}</style><link rel="preload" href="/PJGaetan/_nuxt/static/1615684739/blog/why-I-use-vim/payload.js" as="script">
+  </head>
+  <body>
+    <div data-server-rendered="true" id="__nuxt"><!----><div id="__layout"><div id="root"><header class="header"><h1 class="title">That's why</h1> <div class="bar-icone"><a href="https://github.com/PJGaetan" target="_blank"><img src="/PJGaetan/_nuxt/img/github-sign.8f8edc5.svg" class="bar-icone-item"></a> <a href="https://www.linkedin.com/in/ga%C3%ABtan-pierre-justin-6b2b6717a/?locale=en_US" target="_blank"><img src="data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgNTEyIDUxMiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJtNDM3IDBoLTM2MmMtNDEuMzUxNTYyIDAtNzUgMzMuNjQ4NDM4LTc1IDc1djM2MmMwIDQxLjM1MTU2MiAzMy42NDg0MzggNzUgNzUgNzVoMzYyYzQxLjM1MTU2MiAwIDc1LTMzLjY0ODQzOCA3NS03NXYtMzYyYzAtNDEuMzUxNTYyLTMzLjY0ODQzOC03NS03NS03NXptLTI1NiA0MDZoLTYwdi0yMTBoNjB6bTAtMjQwaC02MHYtNjBoNjB6bTIxMCAyNDBoLTYwdi0xMjBjMC0xNi41MzkwNjItMTMuNDYwOTM4LTMwLTMwLTMwcy0zMCAxMy40NjA5MzgtMzAgMzB2MTIwaC02MHYtMjEwaDYwdjExLjMwODU5NGMxNS43MTg3NS00Ljg4NjcxOSAyNS45Mjk2ODgtMTEuMzA4NTk0IDQ1LTExLjMwODU5NCA0MC42OTE0MDYuMDQyOTY5IDc1IDM2LjU0Njg3NSA3NSA3OS42ODc1em0wIDAiLz48L3N2Zz4=" class="bar-icone-item"></a> <img src="/PJGaetan/_nuxt/img/rss-feed-button.defb322.svg" class="bar-icone-item"></div></header> <div id="content"><div class="centered-content"><h1 class="content-title">What is it about vim</h1> <h4 class="article-read-time">
+      Sunday, March 14 - 2021 · 10 min read
+    </h4> <h4 class="content-toc-title">Table of Content</h4> <ul class="toc"><li class="toc2"><a href="/PJGaetan/blog/why-I-use-vim#efficiency">Efficiency</a></li><li class="toc2"><a href="/PJGaetan/blog/why-I-use-vim#feeling-right">"Feeling" right</a></li><li class="toc2"><a href="/PJGaetan/blog/why-I-use-vim#journey">Journey</a></li></ul> <div class="nuxt-content"><h2 id="efficiency"><a href="#efficiency" aria-hidden="true" tabindex="-1"><span class="icon icon-link"></span></a>Efficiency</h2>
+<p>Vim is a test editor, one among a multitude (notepad, atom, word). What makes
+vim so special.
+When you use a computer, you use shortcuts to do repetitive tasks faster,
+any computer user (even my granny), knows how to <code>ctrl+c/ctrl+v</code>. Likewise you
+might want to go to the end of the line quickly and <code>cmd+right arrow</code> (with
+a mac) or look for a word in document and presse <code>cmd+f</code> (<code>ctrl+f</code>).</p>
+<p>Unknowingly, you are already starting to automate tasks by reducing your
+interaction with the UI. <strong>Keyboard is faster than mouse.</strong> Using vim is pretty
+much the same things, it's like a giant toolbox of infinite shortcuts.
+There are reasons as to why choosing to use vim over just trying to configure the
+editor you are already using.</p>
+<ul>
+<li>
+<p>Wherever you are, whichever platform you are on, you will be able to use vim
+mode, and you won't have to lose time configuring your shortcuts and
+wondering how to make them work.</p>
+</li>
+<li>
+<p>Using vim just feels like programming, you can automate a repetitive task
+on the fly thanks to the use of <em>macros</em></p>
+</li>
+<li>
+<p>Vim is different from your usual editor, vim is <em>modal</em>. You will find
+yourself switching between 3 modes while using it</p>
+<ul>
+<li>
+<p>nomal mode : the <em>navigation mode</em></p>
+</li>
+<li>
+<p>insert mode : the <em>writing mode</em></p>
+</li>
+<li>
+<p>visual mode : the <em>select mode</em></p>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="feeling-right"><a href="#feeling-right" aria-hidden="true" tabindex="-1"><span class="icon icon-link"></span></a>"Feeling" right</h2>
+<p>The pursuit of efficiency was definitely the reason I tried vim. I guess willing
+to optimise my workflow was enought a reson for me to spend some qulity hours
+on vim tutor or playing <a href="https://vim-adventures.com/" rel="nofollow noopener noreferrer" target="_blank">vim adventure game</a>.
+But what I obtained was definitely more than that. It definitly came as a surprise
+but the biggest impact it has on me was how I felt while coding. It started
+to feel like everything was right and exactly were it should fit. Many things
+tend to explain this phenomenon:</p>
+<ul>
+<li>
+<p>Vim is modal, the brains divides the responsibilities in 3 differents roles,
+which allow it to be more focus on what he is doing. When I'm in insert
+mode, I know that I entered this mode for typing and nothing else.</p>
+</li>
+<li>
+<p>I don't <em>scroll</em> anymore. It may be because of social media, but when I'm
+scrolling the screen with my trackpad, I can feel my brain sending me
+endorphins. Thanks to vim I don't have to resist to my addiction anymore and
+I can just focus on coding peacefully.</p>
+</li>
+<li>
+<p><em>Muscule memories</em>, I want to do something, go somewhere, my hands get me
+there without even me thinking and I don't even have to feel the pain of reaching
+to my mouse or my trackpad in order to do what I want. It's deeply connected to
+<strong>Classical Conditioning</strong>, using a familiar stimuli repetitively, teach your
+brain what to expect when you do something so you do it reflexively.</p>
+</li>
+</ul>
+<p>All in all it's about reducing the mental cognitive load for your brain. When
+you feel good about what you are doing, it becomes way easier to enter the
+<em>zone</em> and to stay in it.</p>
+<h2 id="journey"><a href="#journey" aria-hidden="true" tabindex="-1"><span class="icon icon-link"></span></a>Journey</h2>
+<p>I first came to know about vim in college. I tried to <code>git pull</code> but add
+already added a commit on my branch. Git merge screen appears with the default
+editor. Guess I never got out of vim, still writing from that same PR right now.</p>
+<p>All jokes aside, I have always tried to use shortcuts that felt right
+(easy to remember and easy to use) in order to improve my workflow. I always
+felt limitation on how things could be done, needing to reach to my trackpad
+to do things manually, having to do the same repetitive things, needing to many
+key strokes.</p>
+<p>That's when I started to dig things in on vim. Read blogs, watched videos,
+looked at documentation and finally, I opened my computer and typed :</p>
+<div class="nuxt-content-highlight"><pre class="language-shell line-numbers"><code>vimtutor
+</code></pre></div>
+<p>Here I was, not afraid of the step learning curve, learning bit by bit how to
+move in normale mode and some of the things any good vimer has to do :</p>
+<ul>
+<li>
+<p>Do NOT use arrow key and use hjkl instead</p>
+</li>
+<li>
+<p>remap that CAPS LOCK to something more useful</p>
+<ul>
+<li>
+<p><em>esc</em> : let's GET OUT of insert mode</p>
+</li>
+<li>
+<p><em>ctrl</em> : in that case you probably want to do a remap for <code>&lt;Esc></code> cause this
+key is way to far for my taste <code>:imap jk &lt;Esc></code></p>
+</li>
+</ul>
+</li>
+<li>
+<p>use your <code>&lt;leader></code> key to do remaps, oh and by the way, <em>space</em> is great,
+you just have to hit it with your thumb</p>
+</li>
+<li>
+<p>you need to have a <code>.config</code> versioned repository with all your config
+files : .zshrc, .vimrc ...</p>
+</li>
+</ul>
+<p>I guess I was overwhelmed, after some times learning I decided to put it to rest.
+I felt good about being able to learn new things, but it was still not
+practical enough to use it on my day to day job. I still enjoyed myself
+putting my new skills to the test once in a while, taking notes, or wrinting
+a commit message.</p>
+<p>Day by day, I got more and more frustrated in my way of coding. I either knew
+there was a better way to do that un vim, or opened vim in a separete
+terminal, copy/paste some code, use some macro on it and then put it back.</p>
+<p>It's when I decided to go for vim keybinding in my editor (I use vscode). It
+was a life changer and I guess there is no turning back anymore. I do have
+a personnal project that I work on using exclusively vim. It gave me the
+opportunity to lean about fuzzy finder, to create a file navigation workflow.
+Latly I've fallen in love with
+<a href="https://github.com/nvim-telescope/telescope.nvim" rel="nofollow noopener noreferrer" target="_blank">telescope</a> go and check it
+out if you don't know about it already.</p></div></div></div></div></div></div><script>window.__NUXT__={staticAssetsBase:"/_nuxt/static/1615684739",layout:"default",error:null,serverRendered:!0,routePath:"/blog/why-I-use-vim",config:{content:{dbHash:"19140cb5"}}}</script><script src="/PJGaetan/_nuxt/5ffd06d.js" defer></script><script src="/PJGaetan/_nuxt/b92c95a.js" defer></script><script src="/PJGaetan/_nuxt/b36bec3.js" defer></script><script src="/PJGaetan/_nuxt/da5ed71.js" defer></script><script src="/PJGaetan/_nuxt/2e65c94.js" defer></script>
+  </body>
+</html>
