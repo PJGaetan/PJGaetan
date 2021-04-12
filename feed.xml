@@ -2,15 +2,15 @@
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
         <title>That's why blog feed</title>
-        <link>http://localhost:3000/PJGAETAN//feed.xml</link>
+        <link>http://localhost:3000/PJGaetan//feed.xml</link>
         <description>My rambling about some tech and none tech stuff.</description>
-        <lastBuildDate>Mon, 12 Apr 2021 22:57:40 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 12 Apr 2021 23:03:44 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/nuxt-community/feed-module</generator>
         <item>
             <title><![CDATA[What is it about vim]]></title>
-            <link>http://localhost:3000/PJGAETAN/blog/why-I-use-vim</link>
-            <guid>http://localhost:3000/PJGAETAN/blog/why-I-use-vim</guid>
+            <link>http://localhost:3000/PJGaetan/blog/why-I-use-vim</link>
+            <guid>http://localhost:3000/PJGaetan/blog/why-I-use-vim</guid>
             <description><![CDATA[The reason you should consider using vim if you value the quality of your work experience and some of the tools I've come to use while I'm still learning to use it appropriately.]]></description>
             <content:encoded><![CDATA[
 ## Efficiency
