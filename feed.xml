@@ -4,7 +4,7 @@
         <title>That's why blog feed</title>
         <link>http://localhost:3000/PJGaetan//feed.xml</link>
         <description>My rambling about some tech and none tech stuff.</description>
-        <lastBuildDate>Mon, 12 Apr 2021 23:03:44 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 12 Apr 2021 23:06:51 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/nuxt-community/feed-module</generator>
         <item>
