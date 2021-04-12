@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>That's why blog feed</title>
+        <link>http://localhost:3000/PJGAETAN//feed.xml</link>
+        <description>My rambling about some tech and none tech stuff.</description>
+        <lastBuildDate>Mon, 12 Apr 2021 22:57:40 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/nuxt-community/feed-module</generator>
+        <item>
+            <title><![CDATA[What is it about vim]]></title>
+            <link>http://localhost:3000/PJGAETAN/blog/why-I-use-vim</link>
+            <guid>http://localhost:3000/PJGAETAN/blog/why-I-use-vim</guid>
+            <description><![CDATA[The reason you should consider using vim if you value the quality of your work experience and some of the tools I've come to use while I'm still learning to use it appropriately.]]></description>
+            <content:encoded><![CDATA[
+## Efficiency
+
+Vim is a test editor, one among a multitude (notepad, atom, word). What makes
+vim so special.
+When you use a computer, you use shortcuts to do repetitive tasks faster,
+any computer user (even my granny), knows how to `ctrl+c/ctrl+v`. Likewise you
+might want to go to the end of the line quickly and `cmd+right arrow` (with
+a mac) or look for a word in document and presse `cmd+f` (`ctrl+f`).
+
+Unknowingly, you are already starting to automate tasks by reducing your
+interaction with the UI. **Keyboard is faster than mouse.** Using vim is pretty
+much the same things, it's like a giant toolbox of infinite shortcuts.
+There are reasons as to why choosing to use vim over just trying to configure the
+editor you are already using.
+
+- Wherever you are, whichever platform you are on, you will be able to use vim
+  mode, and you won't have to lose time configuring your shortcuts and
+  wondering how to make them work.
+
+- Using vim just feels like programming, you can automate a repetitive task
+  on the fly thanks to the use of _macros_
+
+- Vim is different from your usual editor, vim is _modal_. You will find
+  yourself switching between 3 modes while using it
+
+  - nomal mode : the _navigation mode_
+
+  - insert mode : the _writing mode_
+
+  - visual mode : the _select mode_
+
+## "Feeling" right
+
+The pursuit of efficiency was definitely the reason I tried vim. I guess willing
+to optimise my workflow was enought a reson for me to spend some qulity hours
+on vim tutor or playing [vim adventure game](https://vim-adventures.com/).
+But what I obtained was definitely more than that. It definitly came as a surprise
+but the biggest impact it has on me was how I felt while coding. It started
+to feel like everything was right and exactly were it should fit. Many things
+tend to explain this phenomenon:
+
+- Vim is modal, the brains divides the responsibilities in 3 differents roles,
+  which allow it to be more focus on what he is doing. When I'm in insert
+  mode, I know that I entered this mode for typing and nothing else.
+
+- I don't _scroll_ anymore. It may be because of social media, but when I'm
+  scrolling the screen with my trackpad, I can feel my brain sending me
+  endorphins. Thanks to vim I don't have to resist to my addiction anymore and
+  I can just focus on coding peacefully.
+
+- _Muscule memories_, I want to do something, go somewhere, my hands get me
+  there without even me thinking and I don't even have to feel the pain of reaching
+  to my mouse or my trackpad in order to do what I want. It's deeply connected to
+  **Classical Conditioning**, using a familiar stimuli repetitively, teach your
+  brain what to expect when you do something so you do it reflexively.
+
+All in all it's about reducing the mental cognitive load for your brain. When
+you feel good about what you are doing, it becomes way easier to enter the
+_zone_ and to stay in it.
+
+## Journey
+
+I first came to know about vim in college. I tried to `git pull` but add
+already added a commit on my branch. Git merge screen appears with the default
+editor. Guess I never got out of vim, still writing from that same PR right now.
+
+All jokes aside, I have always tried to use shortcuts that felt right
+(easy to remember and easy to use) in order to improve my workflow. I always
+felt limitation on how things could be done, needing to reach to my trackpad
+to do things manually, having to do the same repetitive things, needing to many
+key strokes.
+
+That's when I started to dig things in on vim. Read blogs, watched videos,
+looked at documentation and finally, I opened my computer and typed :
+
+```shell
+vimtutor
+```
+
+Here I was, not afraid of the step learning curve, learning bit by bit how to
+move in normale mode and some of the things any good vimer has to do :
+
+- Do NOT use arrow key and use hjkl instead
+
+- remap that CAPS LOCK to something more useful
+
+  - _esc_ : let's GET OUT of insert mode
+
+  - _ctrl_ : in that case you probably want to do a remap for `<Esc>` cause this
+    key is way to far for my taste `:imap jk <Esc>`
+
+- use your `<leader>` key to do remaps, oh and by the way, _space_ is great,
+  you just have to hit it with your thumb
+
+- you need to have a `.config` versioned repository with all your config
+  files : .zshrc, .vimrc ...
+
+I guess I was overwhelmed, after some times learning I decided to put it to rest.
+I felt good about being able to learn new things, but it was still not
+practical enough to use it on my day to day job. I still enjoyed myself
+putting my new skills to the test once in a while, taking notes, or wrinting
+a commit message.
+
+Day by day, I got more and more frustrated in my way of coding. I either knew
+there was a better way to do that un vim, or opened vim in a separete
+terminal, copy/paste some code, use some macro on it and then put it back.
+
+It's when I decided to go for vim keybinding in my editor (I use vscode). It
+was a life changer and I guess there is no turning back anymore. I do have
+a personnal project that I work on using exclusively vim. It gave me the
+opportunity to lean about fuzzy finder, to create a file navigation workflow.
+Latly I've fallen in love with
+[telescope](https://github.com/nvim-telescope/telescope.nvim) go and check it
+out if you don't know about it already.
+]]></content:encoded>
+        </item>
+    </channel>
+</rss>
